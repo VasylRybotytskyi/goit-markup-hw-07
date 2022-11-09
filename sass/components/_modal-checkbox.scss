@@ -1,0 +1,78 @@
+.form-checkbox {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    color: var(--primart-text-color);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-checkbox__link {
+    color: var(--accent-text-color);
+}
+
+
+.form-checkbox__button {
+    background-color: var(--accent-text-color);
+    color: var(--white-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 52px;
+    padding-right: 52px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    letter-spacing: 0.06em;
+    
+}
+.form-checkbox__label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    
+  }
+  .form-checkbox__check {
+    position: relative;
+    width: 16px;
+    height: 15px;
+    border: 2px solid var(--title-text-color);
+    border-radius: 2px;
+    
+  }
+  .form-checkbox__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    
+    
+  }
+  .form-checkbox__input:checked + .form-checkbox__check {
+    background-color: var(--accent-text-color);
+    border-color: transparent;
+      
+  }
+  .form-checkbox__input:checked + .form-checkbox__check > svg {
+    opacity: 1;
+    background-image: url(../images/iconcheck.svg);
+    
+  }

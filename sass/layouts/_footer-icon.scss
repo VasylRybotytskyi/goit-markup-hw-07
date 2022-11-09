@@ -1,0 +1,21 @@
+.card-social__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    fill: var(--white-text-color);
+    transition: background-color 250ms var(--timing-function);
+        &:hover,
+        &:focus {
+            background-color: var(--accent-text-color);
+    }  
+}
+
+.card-subscribe__icon {
+    vertical-align: middle;
+    margin-left: 10px;
+     
+}
