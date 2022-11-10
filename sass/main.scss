@@ -11,12 +11,15 @@
 @import './components/button';
 @import './components/backdrop';
 @import './components/overlay';
+@import './components/card-portfolio';
+@import './components/title';
 
 
 @import './layouts/header';
 @import './layouts/hero';
-@import './components/title';
-@import './layouts/advantages';
+
+// @import './layouts/works';
+@import './layouts/benefits';
 @import './layouts/team';
 @import './layouts/clients';
 @import './layouts/footer';
@@ -24,6 +27,7 @@
 @import './layouts/contact';
 @import './layouts/footer-icon';
 @import './layouts/footer-form';
+
 
 
 

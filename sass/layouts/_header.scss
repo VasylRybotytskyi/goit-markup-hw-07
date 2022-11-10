@@ -38,12 +38,15 @@ margin-left: 93px;
         & .link.current {
             color: var(--accent-text-color);
             }
-        & .link:hover,
-        & .link:focus {
+            & .link:hover, & .link:focus {
                 color: var(--accent-text-color);
                 
                 }
 }
+
+
+
+
 
 .iteam .current::after {
 content: "";
@@ -55,6 +58,8 @@ position: absolute;
 left: 0;
 bottom: 0;
 border-radius: 2px;
+
+
 }
 
 
