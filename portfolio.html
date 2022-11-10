@@ -245,40 +245,42 @@
         </div>
       </section>
     </main>
-    <footer class="control">
-      <div class="container flex-footer">
+    <footer class="card-footer">
+      <div class="container card__nav">
         <div>
           <a href="./index.html" class="logo">
             <span class="logo-web">Web</span>Studio</a
           >
-          <address class="control-address">
-            <ul class="list">
-              <li class="info">
+          <address class="card-footer__address">
+            <ul class="card-footer__list list">
+              <li class="card-footer__iteam">
                 <a
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  class="link-adress"
+                  class="card-footer__bluelink"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="info">
-                <a href="mailto:info@devstudio.com" class="contacts"
+              <li class="card-footer__iteam">
+                <a href="mailto:info@devstudio.com" class="card-footer__link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="info">
-                <a href="tel:+380961111111" class="contacts">+380961111111</a>
+              <li class="card-footer__iteam">
+                <a href="tel:+380961111111" class="card-footer__link"
+                  >+380961111111</a
+                >
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-social-network">
-          <h3 class="foter-title">Приєднуйтесь</h3>
-          <ul class="social-list list">
+        <div class="card-social">
+          <h3 class="card-social__title">Приєднуйтесь</h3>
+          <ul class="card-social__list list">
             <li>
-              <a class="footer-icon" href="#" aria-label="instagram">
-                <svg class="footer-social">
+              <a class="card-social__link" href="#" aria-label="instagram">
+                <svg class="card-social__icon">
                   <use
                     href="./images/icons.svg#icon-instagram"
                     width="20"
@@ -288,8 +290,8 @@
               </a>
             </li>
             <li>
-              <a class="footer-icon" href="#" aria-label="twitter">
-                <svg class="footer-social">
+              <a class="card-social__link" href="#" aria-label="twitter">
+                <svg class="card-social__icon">
                   <use
                     href="./images/icons.svg#icon-twitter"
                     width="20"
@@ -299,8 +301,8 @@
               </a>
             </li>
             <li>
-              <a class="footer-icon" href="#" aria-label="facebook">
-                <svg class="footer-social">
+              <a class="card-social__link" href="#" aria-label="facebook">
+                <svg class="card-social__icon">
                   <use
                     href="./images/icons.svg#icon-facebook"
                     width="20"
@@ -310,8 +312,8 @@
               </a>
             </li>
             <li>
-              <a class="footer-icon" href="#" aria-label="linkedin">
-                <svg class="footer-social">
+              <a class="card-social__link" href="#" aria-label="linkedin">
+                <svg class="card-social__icon">
                   <use
                     href="./images/icons.svg#icon-linkedin"
                     width="20"
@@ -322,14 +324,18 @@
             </li>
           </ul>
         </div>
-        <div class="footer-e-mail">
-          <span class="footer-label"
+        <div class="card-subscribe">
+          <span class="card-subscribe__label"
             ><label for="name-email">Підпишіться на розсилку</label></span
           >
-          <form class="footer-form">
+          <form class="card-subscribe__form">
             <input type="text" id="name-email" placeholder="E-mail" />
-            <button class="footer-form-button" type="submit">
-              Підписатися<svg class="button-send" width="24" height="24">
+            <button class="card-subscribe__button" type="submit">
+              Підписатися<svg
+                class="card-subscribe__icon"
+                width="24"
+                height="24"
+              >
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>

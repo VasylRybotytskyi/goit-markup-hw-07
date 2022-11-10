@@ -623,6 +623,35 @@ textarea:hover, textarea:focus {
   margin-bottom: 0;
 }
 
+.section-works__iteam {
+  display: flex;
+}
+
+.section-works__list {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.section-works__list .section-works__iteam:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-works__text {
+  position: absolute;
+  bottom: 0;
+  padding-top: 27px;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--white-text-color);
+}
+
 .section-team {
   background: #F5F4FA;
 }
