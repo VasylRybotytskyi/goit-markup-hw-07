@@ -1,17 +1,16 @@
-.section-works__iteam {
+.works-list__iteam {
     display: flex;
   }
   
-  .section-works__list {
+  .works-list {
     display: flex;
     justify-content: center;
     position: relative;
-  }
-  .section-works__list .section-works__iteam:not(:last-child) {
-    margin-right: 30px;
+    gap: 30px;
   }
   
-  .section-works__text {
+  
+  .works-list__text {
     position: absolute;
     bottom: 0;
     padding-top: 27px;

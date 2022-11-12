@@ -1,4 +1,4 @@
-.section-clients__list {
+.clients-list {
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -6,7 +6,7 @@
     transition: fill 250ms var(--timing-function);
     }
     
-    .section-clients__link {
+    .clients-list__link {
         fill: var(--color-link);
             & {
                 display: flex;

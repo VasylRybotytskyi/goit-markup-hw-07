@@ -1,28 +1,21 @@
-.page-header {
+.header {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #ECECEC;
   }
   
-  /*site-nav*/
-  .main-contact {
+  .header-nav {
     display: flex;
     align-items: center;
   }
   
-  .main-nav {
-    display: flex;
-    align-items: center;
-  }
-  
-  .site-nav {
+  .header-list {
     display: flex;
     margin-left: 93px;
+    gap: 50px;
   }
-  .site-nav .iteam:not(:last-child) {
-    margin-right: 50px;
-  }
-  .site-nav .link {
+  
+  .header-list__link {
     color: var(--title-text-color);
     position: relative;
     font-weight: 500;
@@ -32,15 +25,17 @@
     padding-top: 32px;
     text-decoration: none;
     transition: color 250ms var(--timing-function);
-  }
-  .site-nav .link.current {
-    color: var(--accent-text-color);
-  }
-  .site-nav .link:hover, .site-nav .link:focus {
-    color: var(--accent-text-color);
+      & .current {
+        color: var(--accent-text-color);
+    }
+      &:hover,
+      &:focus {
+        color: var(--accent-text-color);
+    }
   }
   
-  .iteam .current::after {
+  
+  .header-list__iteam .current::after {
     content: "";
     display: block;
     width: 100%;

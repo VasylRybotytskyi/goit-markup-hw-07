@@ -1,40 +1,32 @@
-.contact {
+.main-contact {
+    display: flex;
+    align-items: center;
+  }
+
+.header-list--second {
     display: flex;
     margin-left: auto;
-    & .iteam:not(:last-child) {   
-        margin-right: 50px;
-    }
-    & .link {
-        color: var(--primart-text-color);
-        
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        padding-top: 32px;
-        padding-bottom: 32px;
-        
-        text-decoration: none;
-        
-        transition: color 250ms var(--timing-function);
-    }
-        & .link:hover,
-        & .link:focus {
-        color: var(--accent-text-color);
+    gap: 50px;
+  }
+  
+.header-list__link--second {
+    color: var(--primart-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-decoration: none;
+    transition: color 250ms var(--timing-function);
+        &:hover, 
+        &:focus {
+            color: var(--accent-text-color);
+     }
+  }
+  
+.header-list__icon--second {
+    margin-right: 10px;
+    vertical-align: middle;
+    fill: currentColor;
     }
     
-}
-    /* Contact*/
-.envelope {
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    vertical-align: middle;
-    fill: currentColor;
-    }
-    .smartphone {
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-    fill: currentColor;
-    vertical-align: middle;
-    }
